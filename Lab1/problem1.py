@@ -18,7 +18,7 @@ def main():
     args = open(IN_FILE).read().splitlines()
     gcd_euc = gcd( int(args[0]), int(args[1]) )
     print( "gcd(", int(args[0]), ",", int(args[1]), ") = ", gcd_euc )
-    open('OUT_FILE', 'w').write( str(gcd_euc) )
+    open(OUT_FILE, 'w').write( str(gcd_euc) )
 
 if  __name__ =='__main__':
     main()
